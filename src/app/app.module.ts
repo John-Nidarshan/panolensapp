@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PanoramaViewerComponent } from './panorama-viewer/panorama-viewer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PanoramaViewerComponent
   ],
   imports: [
     BrowserModule,
