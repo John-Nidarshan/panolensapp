@@ -3,7 +3,7 @@ Style for the container of buttons
     position: fixed;
     bottom: 20px; /* Distance from the bottom of the viewport */
     left: 50%;
-    transform: translateX(-50%);
+   
     display: flex;
     gap: 20px; /* Space between buttons */
 

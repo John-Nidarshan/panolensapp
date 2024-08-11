@@ -1,0 +1,9 @@
+[build]
+base="PANOLENS-ANGULAR-APP/"
+command="npm run"
+publish="dist/browser"
+
+[[redirects]]
+from="/*"
+to="/index.html"
+status=200
